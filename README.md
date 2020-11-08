@@ -1,6 +1,7 @@
-## Welcome to GitHub Pages
+## Repositório [ Igor Bragança ]
 
-You can use the [editor on GitHub](https://github.com/igorbraganca2003/coca-cola/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Abaixo meu site da coca-cola
+https://igorbraganca2003.github.io/coca-cola/src/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
