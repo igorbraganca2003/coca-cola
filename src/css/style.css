@@ -1,0 +1,506 @@
+@font-face{
+    src: url('../fonts/Roboto-LightItalic.ttf');
+    font-family: 'Roboto-italic'; 
+}
+
+@font-face{
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-family: 'Roboto-dark'; 
+}
+
+@font-face{
+    src: url('../fonts/Roboto-Thin.ttf');
+    font-family: 'Roboto'; 
+}
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+
+
+
+
+
+
+/* __________ Mobile-first __________ */
+
+/* Header */
+
+header{
+    color: white;
+    background-image: url('../img/coke-and-cbd-drinks.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 7px solid #ad1729;
+}
+
+header .fundo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 20px ;
+    background-color:#e41a28 ;
+    opacity: 0.87;
+}
+
+header .fundo p{
+    display: none;
+}
+
+header #logo-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header #logo-box img{width: 120px; margin-bottom: 10px;}
+
+header .fundo  #social-icons {
+    margin-top: 25px; 
+    font-size: 1.2rem; 
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+
+header .fundo h1 {margin-top: 25px; font-family: 'roboto-dark';}
+
+header .fundo h2 {margin-top: 5px; font-size: 0.9rem; font-family: 'Roboto-italic';}
+
+header #apps img{ width: 150px;}
+
+header .fundo div#apps{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+section#next-generation {
+    /* position: relative; */
+    /* padding: 20px 25px 30px; */
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+}
+
+section#next-generation h2{
+    order: 4;
+    width: 100%;
+    padding: 70px 40px;
+    font-size: 1.9rem;
+    text-align: center;
+    background-color: #e41a28;
+    color: white;
+}
+
+section#next-generation h3{
+    text-align: center;
+    padding-top: 7px;
+}
+
+section#next-generation p{
+    padding-top: 10px;
+    font-size: 0.7rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-family: 'Roboto-italic';
+}
+
+section#next-generation article i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    color:#e41a28 ;
+    font-size: 1.6rem;
+}
+
+section#its-works{
+    background-color:#383a44;
+    color:#fff;
+    padding-top: 25px;
+}
+
+section#its-works article{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section#its-works h2{
+    line-height: 60px;
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: 'Roboto-dark'; 
+}
+
+section#its-works .heading-goes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#its-works .heading-goes p{
+    font-family: 'Roboto-italic';
+    padding-bottom: 10px;
+}
+
+section#its-works .heading-goes i{
+    margin-top: 25px;
+    color:#e41a28;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section#its-works .heading-goes div{
+    /* border: 1px solid #fff; */
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+section#its-works .heading-goes h3{
+    /* border: 1px solid #fff; */
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+section#its-works article.inverso{
+    background-color: #2b2d38;
+}
+
+
+
+section#contatos{
+    background-color: #e41a28;;
+    color: white;
+}
+
+section#contatos h2{
+    font-size: 2.5rem;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+section#contatos form input{
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+section#contatos form input:focus{
+    outline: none;
+}
+
+section#contatos form {
+    padding: 20px;
+}
+
+section#contatos form label{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+section#contatos form button{
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    background-color:#e41a28 ;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+section#contatos form textarea{
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+section#contatos form textarea:focus{
+    outline: none;
+}
+
+section#contatos form button:focus{
+    outline: none;
+}
+
+footer {
+    padding: 10px;
+}
+
+footer p {
+   text-align: center;
+}
+
+
+
+
+
+
+/* __________ Tablet ___________ */
+
+@media screen and (min-width: 760px ){
+    header .fundo{
+        padding-left: 80px;
+        padding-right: 80px;
+        
+    }
+
+    header .fundo  #social-icons {
+        margin-top: 50px; 
+        font-size: 1.7rem; 
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+    }
+
+    header #logo-box img{
+        width: 150px;
+    }
+    header .fundo h1{
+        font-size: 2.5rem;
+        margin-top: 50px;
+    }
+
+    header .fundo h2{
+        font-size: 1.3rem;
+    }
+
+    header .fundo p{
+        margin-top: 50px;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.2rem;
+        padding:  0px 100px 0px 100px;
+    }
+
+    header #apps img{ width: 200px;}
+
+    header .fundo div#apps{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    width: 500px;
+    }
+
+    section#next-generation p{
+        padding-top: 10px;
+        font-size: 1rem;
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 30px;
+        font-family: 'Roboto-italic';
+    }
+
+    section#next-generation h2{
+    
+    width: 100%;
+    padding:70px 25px;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #e41a28;
+    color: white;
+    }
+
+    section#next-generation article i{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        color:#e41a28 ;
+        font-size: 2.5rem;
+    }
+
+    section#next-generation h3{
+        padding: 30px 0 5px 0;
+        font-size: 2rem;
+        font-family: 'roboto';
+    }
+
+    section#its-works article {
+        padding: 0 70px;
+    }
+
+    section#its-works .heading-goes i{
+        font-size: 2.7rem;
+    }
+    
+    section#its-works .heading-goes h3{
+        font-size: 1.5rem;
+    }
+
+    section#its-works .heading-goes p{
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+
+    section#its-works .heading-goes img{
+        width: 250px;
+    }
+    
+    section#contatos{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* __________ Desktop __________ */
+
+@media screen and (min-width:992px){
+
+    header .fundo {
+        background-image: url(../img/lata.jpg);
+        background-repeat: no-repeat;
+        background-size: 45%;
+        background-position: left bottom;
+        background-color:#e41a28 ;
+    }
+
+    header #logo-box img{ width: 100px;}
+
+    header .fundo #social-icons{
+        width: 90px;
+        margin-top: 25px;
+        font-size: 1.4rem;
+    }
+    header .fundo h1{
+        margin-top: 30px;
+        font-size: 2.7rem;
+    }
+    header .fundo h2{
+        align-self: flex-end;
+        width: 50%;
+        font-size: 1.7rem;
+        font-weight: 900;
+        margin-top: 50px;
+        font-family: 'roboto-dark';
+    }
+    header .fundo p{
+        align-self: flex-end;
+        width:50%;
+        text-align: left;
+        margin-top: 20px;
+        padding: 0 100px 0 0 ;
+        font-family: 'roboto-italic'
+    }
+    header .fundo div#apps {
+        align-self: flex-end;
+        justify-content: flex-start;
+        width: 51%;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    header #apps img{ width: 150px;}
+
+    /* Next-generation */
+    
+    section#next-generation {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+    }
+
+    section#next-generation article{
+        width: 30%;
+        max-width: 340px;
+    }
+
+    section#next-generation p{
+        padding-top: 20px;
+        font-size: 0.8rem;
+        font-family: 'Roboto-italic';
+    }
+
+
+
+    section#its-works{
+        align-items: stretch;
+    }
+    section#its-works h2{
+        font-size: 3rem;
+        padding:50px 0 30px 0 ;
+    }
+
+    section#its-works article {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    section#its-works article img{
+        align-self: flex-end;
+        max-width: 200px;
+    }
+   
+    section#its-works .heading-goes {
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 100%;
+        padding: 0 20% 0 20%;
+    }
+
+    section#its-works .heading-goes i{
+        margin: 0;
+        padding: 13px 20px 0 0;
+        font-size: 2rem;
+    }
+    
+    section#its-works .heading-goes div h3{
+        text-align: left;
+    }
+
+    section#its-works .heading-goes div p{
+        text-align: left;
+        font-size: 0.8rem;
+        padding-right: 100px;
+        margin-bottom: 30px;
+    }
+
+    section#its-works .heading-goes img{
+        width: 500px;
+        height: 250px;
+        padding: 0;
+        margin: 0;
+    }
+
+    section#its-works article.inverso{
+        padding-top:50px ;
+        margin-top: 0;
+    }
+
+    section#contatos{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+}
