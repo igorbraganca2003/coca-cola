@@ -1,15 +1,15 @@
 @font-face{
-    src: url('../fonts/Roboto-LightItalic.ttf');
+    src: url('./fonts/Roboto-LightItalic.ttf');
     font-family: 'Roboto-italic'; 
 }
 
 @font-face{
-    src: url('../fonts/Roboto-Bold.ttf');
+    src: url('./fonts/Roboto-Bold.ttf');
     font-family: 'Roboto-dark'; 
 }
 
 @font-face{
-    src: url('../fonts/Roboto-Thin.ttf');
+    src: url('./fonts/Roboto-Thin.ttf');
     font-family: 'Roboto'; 
 }
 /* reset */
