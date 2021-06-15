@@ -27,9 +27,10 @@ Photos/Fotos(Mobile):
 
 <img width="583" alt="Captura de Tela 2021-06-15 às 11 21 59" src="https://user-images.githubusercontent.com/61918994/122072001-982ce180-cdcd-11eb-9bd3-a80b0b251113.png">
  
-
-<img width="578" alt="Captura de Tela 2021-06-15 às 11 22 19" src="https://user-i mages.githubusercontent.com/61918994/122072050-a0851c80-cdcd-11eb-84d5-1ba70c29e690.png">
+ 
+<img width="578" alt="Captura de Tela 2021-06-15 às 11 22 19" src="https://user-images.githubusercontent.com/61918994/122073094-8b5cbd80-cdce-11eb-8038-02ec3633120a.png">
 
 
 🇧🇷 Este é meu projeto, obrigado, siga-me para mais como este! 
+
 🇺🇸 This is my project, thank you, follow-me for more like this!   
