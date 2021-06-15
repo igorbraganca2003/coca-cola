@@ -2,7 +2,7 @@
 
 🇧🇷 Este website é 100% responsivo e totalmente adaptável para todos os dispositívos. Feito puramento com CSS3 e HTML5. Abaixo meu site da coca-cola:
 
-🇺🇸 The website it's 100% responsive and adaptable for all devices. Made white purely CSS3 and HTML5. Here's my coca-cola website:
+🇺🇸 This website it's 100% responsive and adaptable for all devices. Made white purely CSS3 and HTML5. Here's my coca-cola website:
 
 Github Pages: https://igorbraganca2003.github.io/coca-cola/src/ 
 
