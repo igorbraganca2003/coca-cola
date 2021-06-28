@@ -6,7 +6,7 @@
 
 Github Pages: https://igorbraganca2003.github.io/coca-cola/src/ 
 
-Photos/Fotos(Desktop version):
+Photos/Fotos (Desktop version):
 
 <img width="1440" alt="Captura de Tela 2021-06-15 às 11 16 36" src="https://user-images.githubusercontent.com/61918994/122071707-5865fa00-cdcd-11eb-8524-116d9a2cb189.png">
 
@@ -17,7 +17,7 @@ Photos/Fotos(Desktop version):
 <img width="1440" alt="Captura de Tela 2021-06-15 às 11 19 05" src="https://user-images.githubusercontent.com/61918994/122071841-74699b80-cdcd-11eb-953c-a5c4b78b9a4b.png">
 
 
-Photos/Fotos(Mobile version):
+Photos/Fotos (Mobile version):
 
 <img width="580" alt="Captura de Tela 2021-06-15 às 11 20 43" src="https://user-images.githubusercontent.com/61918994/122071908-83e8e480-cdcd-11eb-8ca9-28169a63edd8.png">
 
